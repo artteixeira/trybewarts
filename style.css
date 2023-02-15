@@ -51,13 +51,8 @@ main form {
 .email-house {
   display: flex;
   flex-direction: row;
-  width: 40%;
+  width: 90%;
   margin-top:  10px;
-}
-
-.email-house select{
-  width: 50%; 
-
 }
 
 .rate-radio {
