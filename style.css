@@ -47,3 +47,7 @@ main form {
 .rate-radio {
   flex-direction: row;
 }
+
+.agree {
+  flex-direction: row;
+}
