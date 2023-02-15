@@ -25,38 +25,18 @@
     </header>
     <main>
         <form action="" method="POST" id="evaluation-form" class="form-container">
-            <input type="text" id="input-name" placeholder="Nome">
-            <input type="text" id="input-lastname" placeholder="Sobrenome">
-            <input type="email" name="email" id="input-email" placeholder="Email">
+            <input type="text" id="input-name" placeholder="Nome" class="form-text">
+            <input type="text" id="input-lastname" placeholder="Sobrenome" class="form-text">
+            <input type="email" name="email" id="input-email" placeholder="Email" class="form-text">
             <label for="house" class="form-label">Casas:</label>
-            <select name="casas" id="house">
+            <select name="casas" id="house" class="form-select">
                 <option value="Gitnória" id="gitnoria-house">Gitnória</option>
                 <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
                 <option value="Corvinode" id="corvinode-house">Corvinode</option>
                 <option value="Pytherina" id="pytherina-house">Pytherina</option>
             </select>
-            <label for="" id="label-family">Qual sua família?</label>
-            <label for="front"></label>
-            <input type="radio" name="family" value="Frontend" id="front">Frontend
-            <label for="back"></label>
-            <input type="radio" name="family" value="Backend" id="back">Backend
-            <label for="full"></label>
-            <input type="radio" name="family" value="FullStack" id="full">FullStack
             <hr>
-            <label class="form-label" id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
-            <input type="checkbox" name="hofs" id="hofs" value="HoFs" class="subject">
-            <label for="hofs" class="form-label">HoFs</label>
-            <input type="checkbox" name="jest" id="jest" value="Jest" class="subject">
-            <label for="jest" class="form-label">Jest</label>
-            <input type="checkbox" name="promises" id="promises" value="Promises" class="subject">
-            <label for="promises" class="form-label">Promises</label>
-            <input type="checkbox" name="react" id="react" value="React" class="subject">
-            <label for="react" class="form-label">React</label>
-            <input type="checkbox" name="sql" id="sql" value="SQL" class="subject">
-            <label for="sql" class="form-label">SQL</label>
-            <input type="checkbox" name="python" id="python" value="Python" class="subject">
-            <label for="python" class="form-label">Python</label>
-            <hr>
+<<<<<<< HEAD
         <div class="rate-radio">
             <label for="" id="label-rate">Como você avalia a Trybewarts?</label>
             <label for="one">1</label>
@@ -80,6 +60,33 @@
             <label for="ten">10</label>
             <input type="radio" name="rate" value="10" id="ten">
         </div>
+=======
+            <label for="" id="label-family">Qual sua família?</label>
+            <label for="front" class="form-check-label">Frontend</label>
+            <input type="radio" name="family" value="Frontend" id="front" class="form-check-input">
+            <label for="back" class="form-check-label">Backend</label>
+            <input type="radio" name="family" value="Backend" id="back" class="form-check-input">
+            <label for="full" class="form-check-label">FullStack</label>
+            <input type="radio" name="family" value="FullStack" id="full" class="form-check-input">
+
+            
+            <label class="form-check-label" id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
+            <input type="checkbox" name="hofs" id="hofs" value="HoFs" class="subject form-check-input">
+            <label for="hofs" class="form-check-label">HoFs</label>
+            <input type="checkbox" name="jest" id="jest" value="Jest" class="subject form-check-input">
+            <label for="jest" class="form-check-label">Jest</label>
+            <input type="checkbox" name="promises" id="promises" value="Promises" class="subject form-check-input">
+            <label for="promises" class="form-check-label">Promises</label>
+            <input type="checkbox" name="react" id="react" value="React" class="subject form-check-input">
+            <label for="react" class="form-check-label">React</label>
+            <input type="checkbox" name="sql" id="sql" value="SQL" class="subject form-check-input">
+            <label for="sql" class="form-check-label">SQL</label>
+            <input type="checkbox" name="python" id="python" value="Python" class="subject form-check-input">
+            <label for="python" class="form-check-label">Python</label>
+            <hr>
+            <label for="" class="textarea form-label">Deixe seu comentário:</label>
+            <textarea maxlength="500" class="form-control"></textarea>
+>>>>>>> 83bee8f (parte 15 finalizado)
         </form>
         <img src="images/trybewarts-colored.svg" id="trybewarts-forms-logo" alt="logo de trybewarts">
     </main>
