@@ -10,9 +10,20 @@
   justify-content: space-between;
 }
 
+.header img {
+  padding-left: 20px;
+  height: 100px;
+}
+
 .trybewarts-login {
   display: flex;
   align-items: center;
+  padding-right: 20px;
+}
+
+.header h1 {
+  color: white;
+  align-self: center;
 }
 
 main {
@@ -22,13 +33,9 @@ main {
 main form {
   display: flex;
   width: 675px;
-<<<<<<< HEAD
   flex-direction: column;
 }
 
 #trybewarts-forms-logo {
   height: 500px;
 }
-=======
-}
->>>>>>> cea795d (parte 4 finalizado)
