@@ -22,9 +22,13 @@ main {
 main form {
   display: flex;
   width: 675px;
+<<<<<<< HEAD
   flex-direction: column;
 }
 
 #trybewarts-forms-logo {
   height: 500px;
 }
+=======
+}
+>>>>>>> cea795d (parte 4 finalizado)
