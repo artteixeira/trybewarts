@@ -49,12 +49,15 @@ main form {
 }
 
 .email-house {
+  display: flex;
   flex-direction: row;
   width: 40%;
+  margin-top:  10px;
 }
 
 .email-house select{
-  width: 40%;
+  width: 50%; 
+
 }
 
 .rate-radio {
