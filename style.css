@@ -53,6 +53,10 @@ main form {
   width: 40%;
 }
 
+.email-house select{
+  width: 40%;
+}
+
 .rate-radio {
   flex-direction: row;
 }
