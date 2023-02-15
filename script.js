@@ -14,11 +14,14 @@ buttonLogin.addEventListener('click', (event) => {
 const agreement = document.querySelector('#agreement');
 const submitBtn = document.querySelector('#submit-btn');
 
-agreement.addEventListener('click', (event) => {
-  event.preventDefault();
+agreement.addEventListener('click', () => {
   if (agreement.checked) {
     submitBtn.disabled = '';
   } else {
     submitBtn.disabled = 'disabled';
   }
+});
+
+submitBtn.addEventListener('click', (event) => {
+  event.preventDefault();
 });

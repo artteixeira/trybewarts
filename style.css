@@ -2,6 +2,12 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: Architects Daughter, cursive;
+  font-weight: 550;
+}
+
+button {
+  border: 5px solid black;
 }
 
 .header {
@@ -32,8 +38,13 @@
 
 main {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   padding-top: 20px;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+  align-self: center;
 }
 
 main form {
@@ -42,32 +53,83 @@ main form {
   flex-direction: column;
 }
 
-#trybewarts-forms-logo {
-  height: 500px;
-  align-self: center;
+main form h2 {
+  text-align: center;
+  padding: 10px 0;
 }
 
 .complete-name {
+  display: flex;
   flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+}
+
+#input-name {
+  width: 48%;
+}
+
+#input-lastname {
+  width: 48%;
 }
 
 .email-house {
   display: flex;
   flex-direction: row;
-  width: 90%;
-  margin-top: 10px;
+  width: 100%;
+  justify-content: space-around;
+  padding: 15px 0;
+}
+
+#input-email {
+  width: 48%;
 }
 
 .select-house {
   display: flex;
   flex-direction: row;
-  width: 90%;
-  margin-top: 10px;
+  width: 48%;
+  align-items: center;
 }
 
-.email-house select {
-  width: 50%;
+.select-house label {
+  padding-left: 10px;
+  padding-top: 5px;
+  width: 20%;
+}
 
+.select-house select {
+  width: 80%;
+}
+
+hr {
+  align-self: center;
+  color: black;
+  width: 80%;
+  opacity: 70%;
+}
+
+#radio-check {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+#radio {
+  display: flex;
+  flex-wrap: wrap;
+  width: 30%;
+}
+
+#label-family {
+  width: 100%;
+}
+
+#check {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  justify-content: center;
 }
 
 .rate-radio {
@@ -83,12 +145,19 @@ main form {
 }
 
 footer {
-  display: flex;
-  justify-content: center;
-  color: white;
-  background-color: rgb(51, 51, 51);
+  background-color: rgb(33, 37, 41);
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 footer h4 {
-  padding-top: 10px;
+  padding-top: 38px;
+  text-align: center;
+  color: white;
+}
+
+textarea {
+  resize: none;
 }
