@@ -14,7 +14,8 @@ buttonLogin.addEventListener('click', (event) => {
 const agreement = document.querySelector('#agreement');
 const submitBtn = document.querySelector('#submit-btn');
 
-agreement.addEventListener('click', () => {
+agreement.addEventListener('click', (event) => {
+  event.preventDefault();
   if (agreement.checked) {
     submitBtn.disabled = '';
   } else {
